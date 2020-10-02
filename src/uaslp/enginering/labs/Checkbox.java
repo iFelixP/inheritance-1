@@ -6,4 +6,7 @@ public class Checkbox extends Control {
     public Checkbox(String label){
         this.label = label;
     }
+    public void draw() {
+        System.out.print("[ ]" + label);
+    }
 }
